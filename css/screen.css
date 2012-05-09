@@ -113,10 +113,10 @@ ul.posts {
 
   .header .title {
     color: #fff /* #eee; */
-    font-size: 300%;
-    margin-top: 1ex;
-    margin-bottom: 1ex;
-    text-shadow: 1px -1px 0px rgba(0,0,0,.5);
+    font-size: 500%;
+    margin-top: 0ex;
+    margin-bottom: 0ex;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.5);
     font-family: 'Lilita One', sans-serif;
     /* font-family: 'Carter One', sans-serif; */
     /* text-shadow: 0px 1px 1px #bbb; &/
