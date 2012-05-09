@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nixie One', cursive;
-  /* font-size: 100%; */
+  font-size: 100%;
 }
 
 h1 {
@@ -114,8 +114,10 @@ ul.posts {
   .header .title {
     color: #fff /* #eee; */
     font-size: 300%;
-    margin-top: 0ex;
+    margin-top: 1ex;
     margin-bottom: 0ex;
+    margin-left: 1em;
+    margin-right: 0em;
     text-shadow: 1px -1px 0px rgba(0,0,0,.5);
     font-family: 'Lilita One', sans-serif;
     /* font-family: 'Carter One', sans-serif; */
@@ -145,26 +147,26 @@ ul.posts {
     .header .links a.extra:hover {
       color: #ddd;
     }
-
+/*
   .header .title a {
-    color: #eee;
+    color: #fff;
     text-decoration: none;
   }
 
   .header .title a:hover {
-    color: #eee;
+    color: #fff;
   }
 
   .header .title a.extra {
-    color: #eee;
+    color: #fff;
     text-decoration: none;
     margin-left: 1em;
   }
 
   .header .title a.extra:hover {
-    color: #eee;
+    color: #fff;
   }
-
+*/
   .site .meta {
     color: #aaa;
   }
