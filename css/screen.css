@@ -114,7 +114,7 @@ ul.posts {
     font-size: 200%;
     margin-top: 0ex;
     margin-bottom: 0ex;
-    margin-left: 1ex;
+    margin-left: 2ggex;
     margin-right: 0em;
     text-shadow: 1px -1px 0px rgba(0,0,0,.5);
     font-family: 'Lilita One', sans-serif;
@@ -126,10 +126,9 @@ ul.posts {
     text-shadow: 1px -1px 0px rgba(0,0,0,.5);
     font-size: 100%;
     font-family: 'Pontano Sans', sans-serif;
-    text-effect: bold;
     text-align: right;
-    margin-top: -2.5ex;
-    margin-right: 1ex;
+    margin-top: -3.5ex;
+    margin-right: 2ex;
   }
 
     .header .links a {
