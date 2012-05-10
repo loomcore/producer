@@ -128,7 +128,8 @@ ul.posts {
     font-family: 'Pontano Sans', sans-serif;
     text-effect: bold;
     text-align: right;
-    margin-top: -1.5em;
+    margin-top: -2.5ex;
+    margin-right: 1ex;
   }
 
     .header .links a {
