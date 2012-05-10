@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-image:url('../images/nico_bg_lambda_tile_small.png');
+  /* background-image:url('../images/nico_bg_lambda_tile_small.png'); */
   font-family: 'Pontano Sans', sans-serif;
   *font-size: small;
   text-align: center;
@@ -111,7 +111,7 @@ ul.posts {
 
   .header .title {
     color: #fff /* #eee; */
-    font-size: 300%;
+    font-size: 200%;
     margin-top: 0ex;
     margin-bottom: 0ex;
     margin-left: 1ex;
@@ -122,26 +122,29 @@ ul.posts {
 
   .header .links {
     color: #fff;
-    text-shadow: 0px 1px 0px #ccc;
+    /* text-shadow: 0px 1px 0px #ccc; */
+    text-shadow: 1px -1px 0px rgba(0,0,0,.5);
     font-size: 100%;
-    font-family: 'Nixie One', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
+    text-effect: bold;
+    text-align: right;
   }
 
     .header .links a {
-      color: #ddd;
+      color: #fff;
       text-decoration: none;
     }
 
     .header .links a:hover {
-      color: #ddd;
+      color: #fff;
     }
 
     .header .links a.extra {
-      color: #ddd;
+      color: #fff;
     }
 
     .header .links a.extra:hover {
-      color: #ddd;
+      color: #fff;
     }
 
   .header .title a {
