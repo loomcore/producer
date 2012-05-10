@@ -5,4 +5,4 @@ RewriteEngine On
 RewriteRule ^about.html\/?$ \/about/
 RewriteRule ^contact.html\/?$ \contact/
 RewriteRule ^404.html\/?$ \404/
-RewriteRule ^loomcore.bandcamp.com\/?$ \shop/
+RewriteRule ^http://loomcore.bandcamp.com\/?$ \shop/
