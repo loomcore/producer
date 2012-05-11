@@ -38,7 +38,8 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #ccc;
+  text-decoration: none;
 }
 
 a:hover {
@@ -175,9 +176,10 @@ ul.posts {
 
   .site .footer {
     font-size: 80%;
-    color: #333;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
+    color: #ccc;
+    /* border-top: 4px solid #eee; */
+    border-top: 1px dotted #ccc;
+    margin-top: 1em;
     overflow: hidden;
   }
 
