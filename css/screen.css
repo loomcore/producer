@@ -38,12 +38,12 @@ p {
 }
 
 a {
-  color: #888;
+  color: #999;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom: -1px dotted #ccc
+  border-bottom: 1px dotted #999;
 }
 
 /* a:visited {
