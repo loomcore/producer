@@ -17,7 +17,9 @@ html, body {
 
 body {
   /* background-image:url('../images/nico_bg_lambda_tile_small.png'); */
+  background-color: #333;
   font-family: 'Pontano Sans', sans-serif;
+  text-color: #ccc;
   *font-size: small;
   text-align: center;
 }
@@ -87,11 +89,11 @@ ul.posts {
 }
 
   .site .content {
-    background-image:url('../images/content_bg_tile.png');
+    /* background-image:url('../images/content_bg_tile.png'); */
     font-size: small;
     color: #333;
     border-style: dotted;
-    border-color: #555;
+    border-color: transparent transparent #ccc transparent;
     border-width: 1px;
     padding: 5% 5% 5% 5%;
   }
