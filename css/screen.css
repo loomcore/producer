@@ -38,16 +38,16 @@ p {
 }
 
 a {
-  color: #ccc;
+  color: #888;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom: 1px dotted #ccc
+  border-bottom: -1px dotted #ccc
 }
 
 a:visited {
-  color: #aaa;
+  color: #999;
 }
 
 table {
