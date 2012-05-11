@@ -91,7 +91,7 @@ ul.posts {
   .site .content {
     /* background-image:url('../images/content_bg_tile.png'); */
     font-size: small;
-    color: #333;
+    /* color: #333; */
     border-style: dotted;
     border-color: transparent transparent #ccc transparent;
     border-width: 1px;
