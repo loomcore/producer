@@ -19,7 +19,7 @@ body {
   /* background-image:url('../images/nico_bg_lambda_tile_small.png'); */
   background-color: #333;
   font-family: 'Pontano Sans', sans-serif;
-  text-color: #ccc;
+  color: #ccc;
   *font-size: small;
   text-align: center;
 }
