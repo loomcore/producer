@@ -24,17 +24,14 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-family: 'Nixie One', cursive;
-  font-size: 140%;
-}
-
 h2, h3, h4, h5, h6 {
   font-family: 'Nixie One', cursive;
   font-size: 110%;
 }
 
 h1 {
+  font-family: 'Nixie One', cursive;
+  font-size: 140%;
   margin-bottom: 1em;
 }
 
@@ -91,7 +88,8 @@ ul.posts {
   width: 90%;
   font-size: 100%;
   text-align: left;
-  margin: 3em auto 2em auto;
+/*   margin: 3em auto 2em auto; */
+  margin: 2em 50% 2em 1em;
 }
 
   .site .content {
