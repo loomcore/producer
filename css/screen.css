@@ -174,14 +174,6 @@ ul.posts {
     color: #aaa;
   }
 
-footer {
- font-size: 60%;
- color: #ccc;
- border-top: 1px dotted #ccc;
- margin-top: 1em;
- overflow: hidden;
-}
-
   .site .footer {
     font-size: 60%;
     color: #ccc;
@@ -194,6 +186,10 @@ footer {
      .site .footer .contact {
       float: left;
       margin-right: 3em;
+    }
+
+     .site .footer .contact p {
+      font-size: 10%;
     }
 
 /*       .site .footer .contact a {
