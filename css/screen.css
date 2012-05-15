@@ -24,7 +24,12 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-family: 'Nixie One', cursive;
+  font-size: 140%;
+}
+
+h2, h3, h4, h5, h6 {
   font-family: 'Nixie One', cursive;
   font-size: 110%;
 }
@@ -96,11 +101,11 @@ ul.posts {
     border-style: dotted;
     border-color: transparent transparent #ccc transparent;
     border-width: 1px;
-    padding: 5% 5% 5% 5%;
+    /* padding: 5% 5% 5% 5%; */
   }
 
   .site .content h1 {
-    font-size: 125%;
+    font-size: 140%;
     font-weight: bold;
     margin-bottom: 1em;
   }
