@@ -85,7 +85,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  width: 90%;
+  width: 100%;
   font-size: 100%;
   text-align: left;
 /*   margin: 3em auto 2em auto; */
@@ -97,6 +97,7 @@ ul.posts {
 
   .site .content {
     /* background-image:url('../images/content_bg_tile.png'); */
+    width: 90%;
     font-size: small;
     /* color: #333; */
 /*    border-style: dotted;
