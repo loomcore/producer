@@ -89,17 +89,21 @@ ul.posts {
   font-size: 100%;
   text-align: left;
 /*   margin: 3em auto 2em auto; */
-  margin: 2em 50% 2em 1em;
+  margin: 0;
+  border-style: dotted;
+  border-color: transparent transparent #ccc transparent;
+  border-width: 1px;
 }
 
   .site .content {
     /* background-image:url('../images/content_bg_tile.png'); */
     font-size: small;
     /* color: #333; */
-    border-style: dotted;
+/*    border-style: dotted;
     border-color: transparent transparent #ccc transparent;
-    border-width: 1px;
+    border-width: 1px; */
     padding: 5% 5% 5% 5%;
+    margin: 2em 70% 2em 2em;
   }
 
   .site .content h1 {
