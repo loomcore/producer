@@ -191,6 +191,7 @@ ul.posts {
     border: 0;
     /* margin-top: 1em; */
     overflow: hidden;
+    clear: both;
   }
 
      .site .footer .contact {
