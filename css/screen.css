@@ -184,7 +184,8 @@ ul.posts {
 
   .site .footer {
     font-size: 70%;
-    color: #ccc;
+    background-image:url('../images/footer_bg_tile.png');
+    /* color: #ccc; */
     /* border-top: 4px solid #eee; */
     border-top: 1px dotted #ccc;
     margin-top: 1em;
