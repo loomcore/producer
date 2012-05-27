@@ -187,8 +187,8 @@ ul.posts {
     background-image:url('../images/footer_bg_tile.png');
     /* color: #ccc; */
     /* border-top: 4px solid #eee; */
-    border-top: 1px dotted #ccc;
-    margin-top: 1em;
+    /* border-top: 1px dotted #ccc; */
+    /* margin-top: 1em; */
     overflow: hidden;
   }
 
