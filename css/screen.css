@@ -27,14 +27,12 @@ body {
 h2, h3, h4, h5, h6 {
   font-family: 'Nixie One', cursive;
   font-size: 110%;
-  color: #999;
 }
 
 h1 {
   font-family: 'Nixie One', cursive;
   font-size: 140%;
   margin-bottom: 1em;
-  color: #999;
 }
 
 p {
