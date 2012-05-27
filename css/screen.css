@@ -103,9 +103,8 @@ ul.posts {
 /*    border-style: dotted;
     border-color: transparent transparent #ccc transparent;
     border-width: 1px; */
-    padding: 5% 5% 5% 5%;
-    /* margin: 1em 70% 1em 2em; */
-    /* margin: 1em 70%; */
+    padding: 2% 5% 2% 5%;
+    margin: 2em 70% 2em 2em;
   }
 
   .site .content h1 {
