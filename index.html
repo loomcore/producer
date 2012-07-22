@@ -3,7 +3,12 @@ layout: default
 title: loomcore
 ---
 
-<div id="home">
+<div id="test" style="float:right; width:45%;">
+  <p>lol testing</p>
+</div>
+
+<div id="home" style="float:left; width:45%;">
+  <h2> News </h2>
   <!-- iterate through the posts on this page -->
   {% for page in paginator.posts %}
     <div class="post" style="margin-bottom:2em;">
@@ -14,14 +19,15 @@ title: loomcore
   {% endfor %}
 
   <!-- links to prev and next pages for browsing thru archives -->
-  <div id="pagination" style="float:center; align:center; text-align:center; margin-bottom:1em; font-family:chunk; font-size: 175%; text-shadow: #aaa 1px 1px 1px;">
+  <!-- <div id="pagination" style="float:center; align:center; text-align:center; margin-bottom:1em; font-family:chunk; font-family: 'Nixie One', cursive; color: #999; text-shadow: #aaa 1px 1px 1px;"> -->
+  <div id="pagination" style="float:center; align:center; text-align:center; margin-bottom:1em; font-family: 'Nixie One', cursive; color: #ccc; font-size: 110%;">
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}">&laquo; Older</a>
+    <a href="/page{{ paginator.next_page }}">&laquo; Older</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
   {% if paginator.previous_page == 1 %}
     <a href="/">Newer &raquo;</a>
   {% elsif paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}">Newer &raquo;</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="/page{{ paginator.previous_page }}">Newer &raquo;</a>
   {% endif %}
   </div>
 

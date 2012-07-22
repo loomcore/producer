@@ -85,14 +85,14 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  width: 100%;
+  width: 98%;
   font-size: 100%;
   text-align: left;
 /*   margin: 3em auto 2em auto; */
   margin: 0;
-  border-style: dotted;
+  /* border-style: dotted;
   border-color: transparent transparent #ccc transparent;
-  border-width: 1px;
+  border-width: 1px; */
 }
 
   .site .content {
@@ -103,7 +103,7 @@ ul.posts {
 /*    border-style: dotted;
     border-color: transparent transparent #ccc transparent;
     border-width: 1px; */
-    padding: 5% 5% 5% 5%;
+    padding: 0 5% 0 5%;
     margin: 2em 70% 2em 2em;
   }
 
@@ -184,11 +184,14 @@ ul.posts {
 
   .site .footer {
     font-size: 70%;
-    color: #ccc;
+    background-image:url('../images/footer_bg_tile.png');
+    /* color: #ccc; */
     /* border-top: 4px solid #eee; */
-    border-top: 1px dotted #ccc;
-    margin-top: 1em;
+    /* border-top: 1px dotted #ccc; */
+    border: 0;
+    /* margin-top: 1em; */
     overflow: hidden;
+    clear: both;
   }
 
      .site .footer .contact {
